@@ -25,6 +25,7 @@ npm install ethereumjs-accounts
 meteor install silentcicero:ethereumjs-accounts
 **/
 
+var ethUtils = require('ethereumjs-util')
 var _ = require('underscore');
 var Tx = require('ethereumjs-tx');
 var BigNumber = require('bignumber.js');

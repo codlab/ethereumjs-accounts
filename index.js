@@ -160,8 +160,6 @@ var randomBytes = function(length) {
 
   return result;
 }
-else throw new Error("Your browser sucks and can't generate secure random numbers");
-}
 
 
 /**

@@ -29,7 +29,6 @@ var _ = require('underscore');
 var Tx = require('ethereumjs-tx');
 var BigNumber = require('bignumber.js');
 var JSZip = require("jszip");
-var FileSaver = require("node-safe-filesaver");
 var crypto = require('crypto');
 global.CryptoJS = require('browserify-cryptojs');
 require('browserify-cryptojs/components/enc-base64');
